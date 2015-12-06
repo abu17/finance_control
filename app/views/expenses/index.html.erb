@@ -1,0 +1,7 @@
+<h1>Bruno</h1>
+<ul>
+  <% @expenses.each do |expense| %>
+    <li><%= expense.name %></li>
+    <li><%= expense.value %></li>
+  <% end %>
+</ul>
